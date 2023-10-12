@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, rgb(177, 13, 199), rgb(255, 3, 3));
+}
+
+.counter {
+  background-color: rgba(12, 12, 12, 0.144);
+  min-width: 30vw;
+  height: 40vh;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.counter-btn {
+  display: flex;
+  align-items: center;
+}
+
+.increment-btn,
+.decrement-btn,
+.reset {
+  height: 3rem;
+  width: 5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.39);
+  outline: none;
+  box-shadow:0.35rem 0.35rem rgb(0, 0, 0);
+}
+
+.decrement-btn {
+  margin-inline: 1.5rem;
+}
+.increment-btn {
+  margin-inline: 1.5rem;
+}
+.reset {
+    font-size: 1.1rem;
+}
+.increment-btn:hover,
+.decrement-btn:hover,
+.reset:hover {
+  color:#fd0303;
+  background-color: rgba(0, 0, 0, 0.39);
+}
+
+.count {
+  color: rgb(233, 222, 222);
+  font-size: 5rem;
+  text-shadow: 0.3rem 0.2rem rgb(0, 0, 0);
+}
